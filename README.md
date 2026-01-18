@@ -1,19 +1,105 @@
-### 📌 Project Details
-- 🔹Predictive Maintenance of Industrial Motors: A system developed by integrating hardware and software such that the failures and faults in the motors would be predicted even before they occur!For hardware, STM32 nucleo F446ZE was used along with sensors like ACS712, ADXL345 & DHT22 as the parameters used were Current, Vibration, Temperature and Humidity respt. Hardware was coded on Arduino IDE and for backend Python was used. Software tech stack used was React Native, HTML, CSS,JS Python, Databases: Kaggle, MySQL and finally, the real time data received on the serail monitor of Arduino IDE was displayed on the dashboard made. For mobile display, ExpoGo was used.Main idea was that when the value of any of the parameter exceeds the threshold set, then the alerts would be send accordingly depending upon the conditions: normal, critical, alert!
+# 🔧 Predictive Maintenance of Industrial Motors
 
-# React + Vite
+## 📌 Overview
+Predictive Maintenance of Industrial Motors is an integrated **hardware–software system** designed to **predict motor faults before failure occurs**.  
+The system continuously monitors key parameters such as **current, vibration, temperature, and humidity**, analyzes them against predefined thresholds, and generates **real-time alerts** to prevent unexpected breakdowns.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates the application of **IoT, embedded systems, data processing, and full-stack development** in an industrial use case.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objectives
+- Monitor real-time motor health parameters
+- Predict abnormal operating conditions before failure
+- Classify system states as **Normal, Critical, or Alert**
+- Provide a real-time dashboard for visualization
+- Generate alerts when thresholds are exceeded
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Hardware Components
+- **Microcontroller:** STM32 Nucleo F446ZE  
+- **Sensors Used:**
+  - ACS712 – Current Sensor
+  - ADXL345 – Vibration Sensor
+  - DHT22 – Temperature & Humidity Sensor
+- **Development Environment:** Arduino IDE
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Software & Technology Stack
+
+### 🔹 Backend
+- Python
+- Real-time data processing
+- Threshold-based condition evaluation
+
+### 🔹 Frontend
+- React Native
+- HTML, CSS, JavaScript
+- Dashboard for live data visualization
+
+### 🔹 Mobile Application
+- Expo Go (for real-time mobile display)
+
+### 🔹 Databases
+- MySQL
+- Kaggle (for dataset reference and experimentation)
+
+### 🔹 Tools
+- Git & GitHub
+- Arduino IDE
+
+---
+
+## ⚙️ System Architecture
+1. Sensors collect real-time motor parameters  
+2. STM32 microcontroller reads sensor values  
+3. Data is transmitted via Arduino Serial Monitor  
+4. Backend processes and evaluates data using Python  
+5. Frontend dashboard displays real-time values  
+6. Alerts are triggered when thresholds are crossed  
+
+---
+
+## 🚦 Alert Mechanism
+The system categorizes motor condition into three states:
+- **Normal:** Parameters within safe limits
+- **Critical:** Parameters approaching unsafe thresholds
+- **Alert:** Parameters exceeding critical thresholds → alert generated
+
+---
+
+## 📊 Features
+- Real-time monitoring of industrial motor parameters
+- Threshold-based fault prediction
+- Live dashboard visualization
+- Mobile-friendly interface
+- Scalable architecture for industrial use
+
+---
+
+## 🚀 Future Enhancements
+- Integration of Machine Learning models for advanced prediction
+- Cloud-based data storage and analytics
+- Automated maintenance scheduling
+- SMS/Email alert notifications
+- Support for multiple motors
+
+---
+
+## 📚 Learning Outcomes
+- Hands-on experience with embedded systems
+- IoT sensor integration
+- Full-stack application development
+- Real-time data handling
+- Industrial predictive maintenance concepts
+
+---
+
+## 👩‍💻 Author
+**Shravani Prashant Deshpande**  
+Final-year Engineering Student  
+Upcoming Analyst at Capgemini  
+
+📌 GitHub: [https://github.com/ShravaniPD21](https://github.com/ShravaniPD21)

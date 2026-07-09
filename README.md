@@ -99,7 +99,7 @@ The system categorizes motor condition into three states:
 
 ## 👩‍💻 Author
 **Shravani Prashant Deshpande**  
-Final-year Engineering Student  
-Upcoming Analyst at Capgemini  
+B.Tech in Electronics and communication engineering.
+Software Engineer at Capgemini.
 
 📌 GitHub: [https://github.com/ShravaniPD21](https://github.com/ShravaniPD21)
